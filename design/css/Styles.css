@@ -1,0 +1,169 @@
+/*links to FARRAY font (font used in logo) */
+@font-face{
+    font-family:FAR;
+    src: url(FARRAY.otf);
+}
+
+/*<-- COLOUR AND FONT CHANGES -->*/
+.navbar-brand {
+font-family: FAR;      /*logo font */
+}
+.navbar-inverse .navbar-brand{  /*Navbar logo colour*/
+   color:#EB7F00;   
+}
+.navbar-inverse .navbar-brand:hover,  /*Navbar logo colour when hovered */
+.navbar-inverse .navbar-brand:focus{
+    color: #A85B00;   
+}
+.hmHeader{
+   color:#EB7F00; 
+font-family: FAR; /*formating for home page LAUGHBUBBLE [right] */
+    font-size:80px;
+}
+.hmsmHeader{
+   color:#EB7F00; /*Smaller version of hmHeader for smaller screen sizes */
+font-family: FAR;
+    font-size:70px;
+    margin-bottom:7px;
+}
+.hmxsHeader{
+ color:#EB7F00;   /*Even smaller version for even smaller screen sizes */
+font-family: FAR;
+    font-size:14px;
+}
+.indexHeader{ 
+ color:#EB7F00; 
+font-family: FAR;
+    font-size:35px;
+}
+h2{    /*Changed default for all h2 tag */
+    margin:0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+}
+a{
+ color:#EB7F00;        /*changed all links to different colour and removed bold and underline */
+ text-decoration: none;
+}
+ .addcol{        /*used to add colour in various places */
+color:#EB7F00;
+}
+.boldtext{  /*slightly larger version of <p> text used for bold*/
+color:#EB7F00;
+font-family: FAR;
+font-size:20px;
+}
+
+.profilepic{  /*profile picture dimensions*/
+height: 20px;
+width: 20px;
+}
+
+/*<-- MARGIN AND PADDING --> */
+
+
+#btmbutton{
+ margin-bottom:30px;   /*margin added for design purposes */
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;     /*container formatting*/
+  margin-left: auto;
+}
+.loger{
+ margin:0;         /*used to center items*/
+text-align: center;
+}
+.spacer{  /* spacer used for design*/
+margin-top:60px;
+}
+.newone{      /*spacer used for design*/
+margin-bottom:30px;
+}
+.smallspac{ /* spacer used for design*/
+padding-top:10px;
+
+}
+.largespac{ /* spacer used for design*/
+padding-top:15px;
+}
+.xlgspac{
+padding-top:25px;
+}
+.moveupW {   /* item moved up for design*/
+margin-top:-20px;
+}
+
+
+
+
+
+.navbar-toggle {           /* details of navbar-toggle*/
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.dropdown-menu {   /* details of dropdown-menu*/
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+
+.navbar-static-top {  /*static navbar*/
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+
+
+
+/*<---SPECIAL: UPLOAD PAGE---> */
+#chose {
+padding:80px;
+margin: 0px auto;    /* small outlining box*/
+border: 2px solid black;
+background-color: #DE7800;
+}
+#uploadPic{    /* formatting spacer*/
+	margin-top:10px;
+}
+#title{
+	margin-top:10px; /* formatting spacer*/
+	margin-bottom:10px;
+}
+.upload{
+display: inline-block;
+}
+
+.centerPiece{ /*Creates shadow*/
+background-color:F7F7F7;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

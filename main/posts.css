@@ -1,0 +1,16 @@
+/* Can combine with another css file */
+
+.posts {
+	margin-bottom:5px;
+}
+
+.picTitle{
+font-family: Arial;
+font-weight:bold;
+}
+.spacer{
+margin-top:60px;
+}
+.extraS{
+margin-bottom:20px;
+}

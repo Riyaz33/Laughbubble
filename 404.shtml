@@ -1,0 +1,57 @@
+<html>
+<head>
+ <link href = "design/css/Styles.css" rel="stylesheet">
+  <title>LaughBubble</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link href = "http://laughbubble.com/design/css/Styles.css" rel="stylesheet">
+        <link rel="apple-touch-icon" href="/lol.ico" />
+        <link rel="icon" type="image/ico" href="/lol.ico"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="JavaScript:timedRedirect()">
+
+<div class = "navbar navbar-inverse navbar-fixed-top">
+            <div class = "container">
+                <a href = "/main/posts.php" class = "navbar-brand">LaughBubble</a>
+                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                </button>
+                
+             
+            </div>
+        </div>
+
+<style>
+p{
+color: black;
+font-family: 'Raleway', sans-serif;
+font-weight: 200;
+margin-left: auto;
+margin-right: auto;
+font-size: 30px;
+padding-top: 20%;
+
+}
+</style>
+
+
+<script type="text/JavaScript">
+
+redirectTime = "4000";
+redirectURL = "http://laughbubble.com";
+function timedRedirect() {
+	setTimeout("location.href = redirectURL;",redirectTime);
+}
+
+</script>
+
+<p align="center">The page you were looking for could not be found.<br> You will be redirected to the main page shortly.</p>
+<h1 align="center" class="hmHeader">?</h1>
+
+
+</body>
+</html>
