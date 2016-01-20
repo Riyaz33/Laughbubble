@@ -1,3 +1,2 @@
 # Laughbubble
-Created for ICS4U final project. 
-A site that provides users with the capability of uploading and sharing funny content, namely images.
+A web application that provides users with the capability of uploading and sharing humurous multimedia. This application was made within a team. 
